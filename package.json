@@ -3,11 +3,9 @@
   "version": "1.0.0",
   "description": "Building a simple dapp used in MetaMask.",
   "scripts": {
-    "deploy": "./deploy.sh",
     "lint": "eslint . --ext js,json",
     "lint:fix": "eslint . --fix --ext js,json",
-    "serve": "static-server . --port 9011",
-    "test": "yarn lint"
+    "serve": "static-server . --port 9011"
   },
   "repository": {
     "type": "git",
